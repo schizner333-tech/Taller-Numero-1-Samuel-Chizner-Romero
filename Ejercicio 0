@@ -1,0 +1,33 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+    
+    main()
+
+{
+    
+    // Variables
+    
+    float catA;
+    
+    float catB;
+    
+    float hip; 
+    
+    // Leer/Solicitar
+    
+    cout<<"Ingresa los catetos el valor del primer cateto: ";
+    cin>>catA;
+    
+    cout<<"Ingresa los catetos el valor del segundo cateto: ";
+    cin>>catB;
+    
+    // Calcular
+    
+    hip = sqrt(pow(catA,2)+pow(catB,2));
+    
+    // Mostrar
+    
+    cout<<"La hipotenusa es: "<<hip;
+
+}
