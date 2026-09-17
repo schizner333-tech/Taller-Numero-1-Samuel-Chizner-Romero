@@ -1,0 +1,33 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+   int main()
+
+{
+    
+    // Variables
+    
+    float radio;
+    
+    float longitud;
+    
+    float area; 
+    
+    // Leer/Solicitar
+    
+    cout<<"Ingresa el valor del radio: ";
+    cin>>radio;
+    
+    // Calcular
+    
+    longitud = (2 * 3.1416 * radio);
+    
+    area = (3.1416 * pow(radio,2));
+    
+    // Mostrar
+    
+    cout<<"La longitud de la circunferencia: " <<longitud<< "\n";
+    cout<<"El area de la circunferencia: " <<area;
+
+}
