@@ -1,0 +1,42 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+
+{
+    
+    // Variables
+    
+    int anyo;
+    int A, B, C, D, E, N;
+    int dia;
+    
+    // Leer/Solicitar
+    
+    cout<<"Ingresa el año: ";
+    cin>>anyo;
+    
+    // Calcular
+    
+    A = anyo % 19;
+    B = anyo % 4;
+    C = anyo % 7;
+    D = (19 * A + 24) % 30;
+    E = (2 * B + 4 * C + 6 * D + 5) % 7;
+    N = 22 + D + E;
+    
+    // Mostrar
+    
+    if (N <= 31)
+    {
+        dia = N;
+        cout<<"El domingo de Pascua es el " <<dia<< " de Marzo.";
+    }
+    else
+    {
+        dia = N - 31;
+        cout<<"El domingo de Pascua es el " <<dia<< " de Abril.";
+    }
+
+}
