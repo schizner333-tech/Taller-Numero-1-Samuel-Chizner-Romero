@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+    int main()
+    
+    {
+        
+    cout<<7.1<<"\n";
+    
+    cout<<7.12<<"\n";
+    
+    cout<<7.123<<"\n";
+    
+    cout<<7.1234<<"\n";
+    
+    cout<<7.12345<<"\n";
+    
+    cout<<7.123456;
+    
+    }
+    
