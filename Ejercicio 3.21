@@ -1,0 +1,42 @@
+#include <iostream>
+#include <math.h>
+#include <cctype> 
+using namespace std;
+
+int main()
+
+{
+    
+    // Variables
+    
+    char caracter;
+    
+    // Leer/Solicitar
+    
+    cout<<"Ingresa un caracter: ";
+    cin>>caracter;
+    
+    // Calcular y Mostrar
+    
+    if (isalpha(caracter))
+    {
+        cout<<"El caracter es alfabetico (letra).";
+    }
+    else if (isdigit(caracter))
+    {
+        cout<<"El caracter es un digito numerico.";
+    }
+    else if (ispunct(caracter))
+    {
+        cout<<"El caracter es un signo de puntuacion.";
+    }
+    else if (iscntrl(caracter))
+    {
+        cout<<"El caracter es no imprimible.";
+    }
+    else
+    {
+        cout<<"El caracter es un caracter especial o espacio.";
+    }
+
+}
