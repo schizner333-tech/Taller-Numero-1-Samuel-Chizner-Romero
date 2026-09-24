@@ -1,0 +1,38 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+
+{
+    
+    // Variables
+    
+    float numero1;
+    
+    float numero2;
+    
+    // Leer/Solicitar
+    
+    cout<<"Ingresa el primer numero: ";
+    cin>>numero1;
+    
+    cout<<"Ingresa el segundo numero: ";
+    cin>>numero2;
+    
+    // Calcular y Mostrar
+    
+    if (numero1 > numero2)
+    {
+        cout<<"El numero mayor es: " <<numero1;
+    }
+    else if (numero2 > numero1)
+    {
+        cout<<"El numero mayor es: " <<numero2;
+    }
+    else
+    {
+        cout<<"Ambos numeros son iguales.";
+    }
+
+}
